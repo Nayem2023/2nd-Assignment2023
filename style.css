@@ -1,0 +1,401 @@
+/* font  */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+ *{
+    font-family: 'Work Sans';
+    font-style: normal;
+ }
+  /* header style   */
+  
+  .header-continer{
+    background-color: rgba(255, 144, 14, 0.1);
+    /* width: 1920px; */
+    height: 1322px;
+    width: 1920px;
+    padding-bottom: 75px;
+  }
+  .nav-titttle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    paddin-top: 50px;
+  }
+  .nav-section1{
+    display:flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .nav-manu{
+    padding:20px;
+  }
+  .header-contant{
+    margin: 0px 530px;
+    
+  }
+  .header-tittle{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+  }
+  .text-center{
+    text-align: center;
+    color: #727272;
+
+  }
+  .button{
+    background-color: rgb(255, 166, 0);
+    font-weight: 600;
+    font-size: 20px;
+    width: 280px;
+    height: 55px;
+    padding-top: 30px;
+    line-height: 23px;
+    text-align: center;
+    margin: 53px 870px;
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .bannar{
+    width: 1440px;
+    height: 700px;
+    padding: 30px 280px;
+    border-radius: 8px;
+  }
+  
+  /* end header part styles */
+
+  /* start main part style */
+  /* team pic and description */
+  .team-feature{
+    align-items: center;
+    display:flex;
+    margin-left: 340px;
+    margin-top: 85px;
+    gap: 134px;
+  }
+  .team-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+  }
+  .team-description{
+    width: 537px;
+    height: 304px;
+    left: 1143px;
+    top: 1621px;
+  }
+  .team-tittle{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+  }
+  .team-tittle-color1{  
+  color: #FF900E;
+  }
+.team-tittle-color{
+  color: #727272;
+}
+.team-description-button{
+  background-color: rgb(255, 166, 0);
+    font-weight: 600;
+    font-size: 20px;
+    width: 280px;
+    height: 55px;
+    padding-top: 30px;
+    line-height: 23px;
+    margin-top: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+/* team pic and description style end */
+/* architect-pic-description style start */
+.architect-pic-description{
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 1059px;
+  top: 2245px;
+  align-items: center;
+
+}
+.architect-tittle-description{
+  display:flex;
+  flex-direction: column;
+  width: 586px;
+  height: 982px;
+  margin-left: 240px;
+  border-radius: 8px;
+
+}
+.tittle-description{
+  width: 586px;
+  height: 78px;
+  left: 240px;
+  margin-bottom: 200px;
+}
+.architect-tittle{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  width: 468px;
+  height: 106px;
+  color: #131313;
+  border-left:3px solid #FF900E;
+  padding-left: 10px;
+}
+.contant{
+  display: flex;
+  flex-direction: column;
+  width: 586px;
+  height: 171px; 
+  gap: 5px;
+}
+.architect-tittle1{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 10px;
+  color: #131313;
+}
+ .indescripe1,.indescripe2,.indescripe3,.indescripe4{
+  margin: 20px 42px 0px 00px ;
+  padding: 20px;
+  background-color: hsl(0, 0%, 99%);
+  border-radius: 8px;
+
+} 
+p{
+    color: #727272;
+}
+.architect-pic{
+   width: 800px;
+  height: 1059px;
+  margin-left: 200px;
+  margin-top: 130px;
+}
+.years{
+  width: 342px;
+  height: 140px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 50px;
+  padding-top: 50px;
+  color: #FFFFFF;
+  background: #FF900E;
+  border-radius: 8px;
+}
+/* architect pic and description style end */
+
+.headline{
+  height: 20px;
+  margin-left: 240px;
+  margin-top: 230px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.headline-des{
+  width: 540px;
+  margin-left: 240px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.boxs{
+  display:flex;
+  gap: 124.17px;
+  margin-top:100px;
+  margin-left: 290px;
+
+}
+/* .box-1 .box-2 .box-3 .box-4:hover{
+  transform: rotate(90deg);
+  transition: 1s ;
+
+} */
+
+.box-1{
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.box-2{
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.box-3{
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.box-4{
+  width: 241.83px;
+  height: 241.83px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+}
+.boxim{
+  padding-top: 45px;
+  padding-left: 97.92px;
+  width: 45.22px;
+  height: 45.22px;
+}
+.sonkha{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  padding-top: 10px;
+  padding-left: 92.92px;
+
+}
+.sonkha-description{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+  padding-top: 5px;
+  padding-left: 35.92px;
+
+
+}
+.sonkha2{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  padding-top: 9.78px;
+  padding-left: 69.92px;
+
+}
+.sonkha-description2{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+  padding-top: 5px;
+  padding-left: 40.92px;
+}
+.sonkha3{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  padding-top: 9.78px;
+  padding-left: 74.92px;
+}
+.sonkha-description3{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+  padding-top: 5px;
+  padding-left: 40.92px;
+}
+.sonkha4{
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  padding-top: 10px;
+  padding-left: 54.92px;
+
+}
+.sonkha-description4{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+  padding-top: 5px;
+  padding-left: 65.92px;
+
+
+}
+/* box detais end */
+.sponspors{
+  margin-left: 590px;
+}
+.spd{
+  width: 540px;
+  text-align: center;
+  margin-left: 145px;
+  margin-top: 24px;
+}
+.sponser-image{
+  display: flex;
+  gap: 170px;
+  margin-top: 50px;
+  margin-left:240px;
+}
+/* main section style end */
+
+.footer{
+  text-align: center;
+  width: 1440px;
+  height: 55px;
+  padding-top: 30px;
+  margin-left: 275px;
+  margin-top: 130px;
+  margin-bottom: 216px;
+  background: #FFF4E7;
+  border-radius: 8px;
+}
+/* footer section end */
+@media screen and (max-width:576px) {
+  .nav-section1, .header-nav,.architect-tittle-description,.sponser-image{
+    flex-direction: column;
+  }
+.header-tittle{
+    font-size: 32px;
+    line-height: 38px;
+}
+.text-center{
+  width: 205px;
+padding-left: 300px;
+}
+.button{
+  margin: 53px 808px;
+}
+.team-feature{
+  flex-direction: column;
+  margin-left: 525px;
+    margin-top: 317px;
+}
+.team-pic{
+  grid-template-columns: repeat(1,1fr);
+}
+.team-description{
+  width: 331px;
+}
+.architect-pic-description{
+  width: 996px;
+  flex-direction: column;
+}
+.boxs{
+  margin-top: 407px;
+  flex-direction: column;
+}
+.footer{
+    width: 300px;
+    margin-left: 170px;
+}
+  }
+  
+  
+
